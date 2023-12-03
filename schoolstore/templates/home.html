@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div class="home" style="text-align: center;padding:100px;" >
+    <h3>Click Here to Login</h3>
+<li class="btn btn-info btn-lg " type="button" >
+        <a class="btn-custom" href="{% url 'storeapp:login' %}">LogIn</a>
+</li>
+</div>
+{% endblock %}
